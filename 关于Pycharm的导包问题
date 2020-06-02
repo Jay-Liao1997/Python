@@ -1,0 +1,4 @@
+在console使用pip install 安装好包
+但是在使用导入时仍然报错
+主要是因为用pip下载的包都在 External Libraries>Python 3.6>site-packages  下面了
+把那里的包复制到 venv>Lib>site-packages 就可以了
